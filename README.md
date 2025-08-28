@@ -1,0 +1,68 @@
+# smartwealth-data-local-loader
+
+Local-only, OOP Python package that fetches earnings from Yahoo Finance, uploads a CSV to DBFS,
+and executes SQL on a Databricks SQL Warehouse to materialize a Delta table in the Hive Metastore.
+
+## What you get
+- **No Databricks clusters / jobs required.** Only a **SQL Warehouse** and a **Personal Access Token**.
+- Clean **OOP** design with clients, services, and a pipeline.
+- **CLI** to run end-to-end from your laptop.
+- Delta table created at `sw_gold.earnings_calendar`.
+
+---
+
+## Quickstart
+
+1) **Clone / unzip** this repo.
+2) Create a virtualenv and install deps:
+```bash
+python -m venv .venv && source .venv/bin/activate
+pip install -r requirements.txt
+```
+3) Fill in **.env** (copy from `.env.example`):
+```env
+DATABRICKS_HOST=https://adb-XXXXXXXX.XX.azuredatabricks.net
+DATABRICKS_TOKEN=pat-xxxxxxxxxxxxxxxx
+DATABRICKS_WAREHOUSE_ID=xxxxxxxxxxxxxxxx
+```
+4) Run the pipeline (example tickers):
+```bash
+python -m smartwealth_data.cli earnings --tickers "AAPL,MSFT,NVDA,AMZN"
+```
+
+Optional:
+```bash
+# Different DBFS staging dir / file name
+python -m smartwealth_data.cli earnings       --tickers "TSLA,GOOGL"       --dbfs_staging_dir "dbfs:/sw/staging"       --csv_name "earnings_6m.csv"
+```
+
+## Project layout
+```text
+src/smartwealth_data/
+  config.py, logging_config.py
+  utils/          # paths, timing
+  clients/        # DBFS + SQL Warehouse (REST)
+  services/       # fetchers, loaders, pipelines (OOP)
+  cli.py          # Typer CLI entrypoint
+sql/               # DDL + COPY INTO template
+conf/              # sample tickers list
+tmp/               # local artifacts (csv)
+```
+
+## Table created
+- Database: `sw_gold` (auto-created)
+- Table: `earnings_calendar` (Delta)
+- Columns:
+  `ticker, earnings_date, eps_estimate, eps_actual, surprise_pct, fiscal_year, fiscal_quarter, company_name, sector, industry, source, ingested_at_utc`
+
+## Notes
+- Uses DBFS **chunked upload** (create/add-block/close) for large CSVs.
+- Uses **Statement Execution API** to run SQL (DDL + COPY INTO).
+- If you prefer Parquet + COPY INTO later, swap the loader; the pipeline stays the same.
+
+## Dev
+```bash
+pip install -r requirements-dev.txt
+pytest -q
+ruff check src && black --check src
+```

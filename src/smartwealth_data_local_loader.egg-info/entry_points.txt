@@ -1,0 +1,2 @@
+[console_scripts]
+swdata = smartwealth_data.cli:main

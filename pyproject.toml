@@ -1,0 +1,19 @@
+[project]
+name = "smartwealth-data-local-loader"
+version = "0.1.0"
+description = "Local-only OOP loader that lands Delta tables in Databricks via SQL Warehouse."
+requires-python = ">=3.10"
+readme = "README.md"
+authors = [{name = "SmartWealth AI"}]
+
+[project.scripts]
+swdata = "smartwealth_data.cli:main"
+
+[tool.black]
+line-length = 100
+target-version = ["py311"]
+
+[tool.ruff]
+line-length = 100
+select = ["E","F","I","UP"]
+ignore = ["E203"]

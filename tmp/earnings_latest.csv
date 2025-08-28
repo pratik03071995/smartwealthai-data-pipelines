@@ -1,0 +1,13 @@
+ticker,earnings_date,eps_estimate,eps_actual,surprise_pct,fiscal_year,fiscal_quarter,company_name,sector,industry,source,ingested_at_utc
+AAPL,2025-05-01,1.63,1.65,1.41,2025,2,Apple Inc.,Technology,Consumer Electronics,yfinance,2025-08-28T04:17:44
+AAPL,2025-02-27,,,,2025,1,Apple Inc.,Technology,Consumer Electronics,yfinance,2025-08-28T04:17:44
+AAPL,2025-01-30,2.35,2.4,2.15,2025,1,Apple Inc.,Technology,Consumer Electronics,yfinance,2025-08-28T04:17:44
+AAPL,2024-10-31,1.6,1.64,2.35,2024,4,Apple Inc.,Technology,Consumer Electronics,yfinance,2025-08-28T04:17:44
+MSFT,2025-04-30,3.22,3.46,7.45,2025,2,Microsoft Corporation,Technology,Software - Infrastructure,yfinance,2025-08-28T04:17:44
+MSFT,2025-01-29,3.11,3.23,3.82,2025,1,Microsoft Corporation,Technology,Software - Infrastructure,yfinance,2025-08-28T04:17:44
+MSFT,2024-12-06,,,,2024,4,Microsoft Corporation,Technology,Software - Infrastructure,yfinance,2025-08-28T04:17:44
+MSFT,2024-10-30,3.1,3.3,6.52,2024,4,Microsoft Corporation,Technology,Software - Infrastructure,yfinance,2025-08-28T04:17:44
+NVDA,2025-06-26,5.57,,,2025,2,NVIDIA Corporation,Technology,Semiconductors,yfinance,2025-08-28T04:17:44
+NVDA,2025-05-28,0.93,0.96,2.84,2025,2,NVIDIA Corporation,Technology,Semiconductors,yfinance,2025-08-28T04:17:44
+NVDA,2025-02-26,0.84,0.89,5.5,2025,1,NVIDIA Corporation,Technology,Semiconductors,yfinance,2025-08-28T04:17:44
+NVDA,2024-11-20,0.75,0.81,8.58,2024,4,NVIDIA Corporation,Technology,Semiconductors,yfinance,2025-08-28T04:17:44
