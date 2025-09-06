@@ -1,0 +1,141 @@
+company,ticker,relation_type,counterparty_name,counterparty_type,tier,category,component_or_product,region,relationship_strength,est_contract_value_usd_m,start_year,notes,is_dummy
+Apple Inc.,AAPL,Supplier,DHL,Company,T1,Logistics,Global logistics,EU,3,1000,2018,DHL supplies Global logistics to Apple Inc.,True
+Apple Inc.,AAPL,Supplier,Samsung Foundry,Company,T1,Foundry,Chip fab capacity,APAC,5,500,2015,Samsung Foundry supplies Chip fab capacity to Apple Inc.,True
+Apple Inc.,AAPL,Supplier,TSMC,Company,T1,Foundry,Advanced wafers,APAC,5,5000,2015,TSMC supplies Advanced wafers to Apple Inc.,True
+Apple Inc.,AAPL,Supplier,ASML,Company,T2,Equipment,Lithography machines,EU,3,500,2018,ASML supplies Lithography machines to Apple Inc.,True
+Apple Inc.,AAPL,Customer,Enterprise (US),Segment,,B2B,Enterprise buyers,US,5,1000,2024,Apple Inc. sells Enterprise buyers to Enterprise (US),True
+Apple Inc.,AAPL,Customer,Automotive OEMs,Segment,,B2B,Car makers,Global,3,5000,2021,Apple Inc. sells Car makers to Automotive OEMs,True
+Apple Inc.,AAPL,Customer,Microsoft,Company,,Cloud,GPU clusters / enterprise software,Global,3,1000,2024,Apple Inc. sells GPU clusters / enterprise software to Microsoft,True
+Microsoft,MSFT,Supplier,Foxconn,Company,T1,EMS,Assembly partner,APAC,4,500,2015,Foxconn supplies Assembly partner to Microsoft,True
+Microsoft,MSFT,Supplier,ASML,Company,T2,Equipment,Lithography machines,EU,4,500,2020,ASML supplies Lithography machines to Microsoft,True
+Microsoft,MSFT,Supplier,Micron,Company,T1,Memory,DRAM/NAND modules,US,4,2500,2015,Micron supplies DRAM/NAND modules to Microsoft,True
+Microsoft,MSFT,Supplier,SK hynix,Company,T1,Memory,HBM/DRAM,APAC,5,5000,2015,SK hynix supplies HBM/DRAM to Microsoft,True
+Microsoft,MSFT,Customer,Financial Services (US),Segment,,B2B,Banking / fintech,US,5,2500,2019,Microsoft sells Banking / fintech to Financial Services (US),True
+Microsoft,MSFT,Customer,Amazon Web Services,Company,,Cloud,Cloud consumption / GPU instances,Global,5,500,2016,Microsoft sells Cloud consumption / GPU instances to Amazon Web Services,True
+Microsoft,MSFT,Customer,Enterprise (Global),Segment,,B2B,Enterprise buyers,Global,5,1000,2021,Microsoft sells Enterprise buyers to Enterprise (Global),True
+Alphabet (Google),GOOGL,Supplier,Samsung Foundry,Company,T1,Foundry,Chip fab capacity,APAC,4,5000,2020,Samsung Foundry supplies Chip fab capacity to Alphabet (Google),True
+Alphabet (Google),GOOGL,Supplier,SK hynix,Company,T1,Memory,HBM/DRAM,APAC,3,2500,2020,SK hynix supplies HBM/DRAM to Alphabet (Google),True
+Alphabet (Google),GOOGL,Supplier,Seagate,Company,T1,Storage,Enterprise HDD/SSD,US,3,2500,2015,Seagate supplies Enterprise HDD/SSD to Alphabet (Google),True
+Alphabet (Google),GOOGL,Supplier,Pegatron,Company,T1,EMS,Assembly partner,APAC,5,1000,2018,Pegatron supplies Assembly partner to Alphabet (Google),True
+Alphabet (Google),GOOGL,Customer,Google Cloud,Company,,Cloud,Cloud consumption,Global,4,1000,2021,Alphabet (Google) sells Cloud consumption to Google Cloud,True
+Alphabet (Google),GOOGL,Customer,Healthcare Providers,Segment,,B2B,Hospitals/clinics,US,3,1000,2016,Alphabet (Google) sells Hospitals/clinics to Healthcare Providers,True
+Alphabet (Google),GOOGL,Customer,Financial Services (US),Segment,,B2B,Banking / fintech,US,4,5000,2021,Alphabet (Google) sells Banking / fintech to Financial Services (US),True
+Amazon,AMZN,Supplier,Samsung Foundry,Company,T1,Foundry,Chip fab capacity,APAC,3,5000,2023,Samsung Foundry supplies Chip fab capacity to Amazon,True
+Amazon,AMZN,Supplier,SK hynix,Company,T1,Memory,HBM/DRAM,APAC,5,5000,2018,SK hynix supplies HBM/DRAM to Amazon,True
+Amazon,AMZN,Supplier,UPS,Company,T1,Logistics,Logistics & delivery,US,4,1000,2018,UPS supplies Logistics & delivery to Amazon,True
+Amazon,AMZN,Supplier,Foxconn,Company,T1,EMS,Assembly partner,APAC,5,2500,2023,Foxconn supplies Assembly partner to Amazon,True
+Amazon,AMZN,Customer,Media/Entertainment,Segment,,B2B,Content buyers,Global,3,1000,2024,Amazon sells Content buyers to Media/Entertainment,True
+Amazon,AMZN,Customer,Financial Services (US),Segment,,B2B,Banking / fintech,US,3,500,2016,Amazon sells Banking / fintech to Financial Services (US),True
+Amazon,AMZN,Customer,Retail (Global),Segment,,Retail,Consumers worldwide,Global,3,1000,2024,Amazon sells Consumers worldwide to Retail (Global),True
+NVIDIA,NVDA,Supplier,UPS,Company,T1,Logistics,Logistics & delivery,US,5,5000,2020,UPS supplies Logistics & delivery to NVIDIA,True
+NVIDIA,NVDA,Supplier,Samsung Foundry,Company,T1,Foundry,Chip fab capacity,APAC,5,500,2015,Samsung Foundry supplies Chip fab capacity to NVIDIA,True
+NVIDIA,NVDA,Supplier,Pegatron,Company,T1,EMS,Assembly partner,APAC,5,2500,2020,Pegatron supplies Assembly partner to NVIDIA,True
+NVIDIA,NVDA,Supplier,Akamai,Company,T1,CDN,Edge delivery,US,3,2500,2023,Akamai supplies Edge delivery to NVIDIA,True
+NVIDIA,NVDA,Customer,Google Cloud,Company,,Cloud,Cloud consumption,Global,5,2500,2019,NVIDIA sells Cloud consumption to Google Cloud,True
+NVIDIA,NVDA,Customer,Healthcare Providers,Segment,,B2B,Hospitals/clinics,US,5,500,2021,NVIDIA sells Hospitals/clinics to Healthcare Providers,True
+NVIDIA,NVDA,Customer,Microsoft,Company,,Cloud,GPU clusters / enterprise software,Global,5,1000,2019,NVIDIA sells GPU clusters / enterprise software to Microsoft,True
+Meta Platforms,META,Supplier,Foxconn,Company,T1,EMS,Assembly partner,APAC,5,500,2020,Foxconn supplies Assembly partner to Meta Platforms,True
+Meta Platforms,META,Supplier,Cloudflare,Company,T1,CDN/Security,Edge + WAF,US,4,500,2015,Cloudflare supplies Edge + WAF to Meta Platforms,True
+Meta Platforms,META,Supplier,Micron,Company,T1,Memory,DRAM/NAND modules,US,4,2500,2018,Micron supplies DRAM/NAND modules to Meta Platforms,True
+Meta Platforms,META,Supplier,LG Energy Solution,Company,T1,Battery,EV battery packs,APAC,3,1000,2015,LG Energy Solution supplies EV battery packs to Meta Platforms,True
+Meta Platforms,META,Customer,Amazon Web Services,Company,,Cloud,Cloud consumption / GPU instances,Global,5,1000,2019,Meta Platforms sells Cloud consumption / GPU instances to Amazon Web Services,True
+Meta Platforms,META,Customer,Healthcare Providers,Segment,,B2B,Hospitals/clinics,US,5,5000,2019,Meta Platforms sells Hospitals/clinics to Healthcare Providers,True
+Meta Platforms,META,Customer,Media/Entertainment,Segment,,B2B,Content buyers,Global,4,5000,2019,Meta Platforms sells Content buyers to Media/Entertainment,True
+Tesla,TSLA,Supplier,LG Energy Solution,Company,T1,Battery,EV battery packs,APAC,5,2500,2023,LG Energy Solution supplies EV battery packs to Tesla,True
+Tesla,TSLA,Supplier,Cloudflare,Company,T1,CDN/Security,Edge + WAF,US,5,2500,2023,Cloudflare supplies Edge + WAF to Tesla,True
+Tesla,TSLA,Supplier,Akamai,Company,T1,CDN,Edge delivery,US,5,5000,2015,Akamai supplies Edge delivery to Tesla,True
+Tesla,TSLA,Supplier,SK hynix,Company,T1,Memory,HBM/DRAM,APAC,3,1000,2015,SK hynix supplies HBM/DRAM to Tesla,True
+Tesla,TSLA,Customer,Retail (Global),Segment,,Retail,Consumers worldwide,Global,5,1000,2016,Tesla sells Consumers worldwide to Retail (Global),True
+Tesla,TSLA,Customer,Microsoft,Company,,Cloud,GPU clusters / enterprise software,Global,3,500,2019,Tesla sells GPU clusters / enterprise software to Microsoft,True
+Tesla,TSLA,Customer,Enterprise (US),Segment,,B2B,Enterprise buyers,US,3,500,2021,Tesla sells Enterprise buyers to Enterprise (US),True
+Berkshire Hathaway,BRK.A,Supplier,Samsung Foundry,Company,T1,Foundry,Chip fab capacity,APAC,5,5000,2018,Samsung Foundry supplies Chip fab capacity to Berkshire Hathaway,True
+Berkshire Hathaway,BRK.A,Supplier,LG Energy Solution,Company,T1,Battery,EV battery packs,APAC,5,1000,2023,LG Energy Solution supplies EV battery packs to Berkshire Hathaway,True
+Berkshire Hathaway,BRK.A,Supplier,SK hynix,Company,T1,Memory,HBM/DRAM,APAC,3,5000,2023,SK hynix supplies HBM/DRAM to Berkshire Hathaway,True
+Berkshire Hathaway,BRK.A,Supplier,ASML,Company,T2,Equipment,Lithography machines,EU,3,500,2015,ASML supplies Lithography machines to Berkshire Hathaway,True
+Berkshire Hathaway,BRK.A,Customer,Financial Services (US),Segment,,B2B,Banking / fintech,US,4,5000,2016,Berkshire Hathaway sells Banking / fintech to Financial Services (US),True
+Berkshire Hathaway,BRK.A,Customer,Retail (Global),Segment,,Retail,Consumers worldwide,Global,5,500,2016,Berkshire Hathaway sells Consumers worldwide to Retail (Global),True
+Berkshire Hathaway,BRK.A,Customer,Media/Entertainment,Segment,,B2B,Content buyers,Global,4,2500,2016,Berkshire Hathaway sells Content buyers to Media/Entertainment,True
+JPMorgan Chase,JPM,Supplier,SK hynix,Company,T1,Memory,HBM/DRAM,APAC,4,1000,2023,SK hynix supplies HBM/DRAM to JPMorgan Chase,True
+JPMorgan Chase,JPM,Supplier,Seagate,Company,T1,Storage,Enterprise HDD/SSD,US,3,2500,2023,Seagate supplies Enterprise HDD/SSD to JPMorgan Chase,True
+JPMorgan Chase,JPM,Supplier,Cloudflare,Company,T1,CDN/Security,Edge + WAF,US,3,500,2023,Cloudflare supplies Edge + WAF to JPMorgan Chase,True
+JPMorgan Chase,JPM,Supplier,LG Energy Solution,Company,T1,Battery,EV battery packs,APAC,5,500,2015,LG Energy Solution supplies EV battery packs to JPMorgan Chase,True
+JPMorgan Chase,JPM,Customer,Automotive OEMs,Segment,,B2B,Car makers,Global,3,1000,2024,JPMorgan Chase sells Car makers to Automotive OEMs,True
+JPMorgan Chase,JPM,Customer,Microsoft,Company,,Cloud,GPU clusters / enterprise software,Global,4,5000,2019,JPMorgan Chase sells GPU clusters / enterprise software to Microsoft,True
+JPMorgan Chase,JPM,Customer,Amazon Web Services,Company,,Cloud,Cloud consumption / GPU instances,Global,4,500,2019,JPMorgan Chase sells Cloud consumption / GPU instances to Amazon Web Services,True
+Visa,V,Supplier,Pegatron,Company,T1,EMS,Assembly partner,APAC,4,2500,2023,Pegatron supplies Assembly partner to Visa,True
+Visa,V,Supplier,TSMC,Company,T1,Foundry,Advanced wafers,APAC,5,5000,2018,TSMC supplies Advanced wafers to Visa,True
+Visa,V,Supplier,Seagate,Company,T1,Storage,Enterprise HDD/SSD,US,3,2500,2018,Seagate supplies Enterprise HDD/SSD to Visa,True
+Visa,V,Supplier,ASML,Company,T2,Equipment,Lithography machines,EU,3,500,2020,ASML supplies Lithography machines to Visa,True
+Visa,V,Customer,Microsoft,Company,,Cloud,GPU clusters / enterprise software,Global,5,1000,2016,Visa sells GPU clusters / enterprise software to Microsoft,True
+Visa,V,Customer,Media/Entertainment,Segment,,B2B,Content buyers,Global,5,500,2019,Visa sells Content buyers to Media/Entertainment,True
+Visa,V,Customer,Healthcare Providers,Segment,,B2B,Hospitals/clinics,US,3,500,2019,Visa sells Hospitals/clinics to Healthcare Providers,True
+Walmart,WMT,Supplier,Pegatron,Company,T1,EMS,Assembly partner,APAC,5,500,2015,Pegatron supplies Assembly partner to Walmart,True
+Walmart,WMT,Supplier,Samsung Foundry,Company,T1,Foundry,Chip fab capacity,APAC,4,2500,2020,Samsung Foundry supplies Chip fab capacity to Walmart,True
+Walmart,WMT,Supplier,UPS,Company,T1,Logistics,Logistics & delivery,US,3,2500,2018,UPS supplies Logistics & delivery to Walmart,True
+Walmart,WMT,Supplier,SK hynix,Company,T1,Memory,HBM/DRAM,APAC,4,5000,2018,SK hynix supplies HBM/DRAM to Walmart,True
+Walmart,WMT,Customer,Enterprise (Global),Segment,,B2B,Enterprise buyers,Global,3,500,2024,Walmart sells Enterprise buyers to Enterprise (Global),True
+Walmart,WMT,Customer,Healthcare Providers,Segment,,B2B,Hospitals/clinics,US,5,500,2016,Walmart sells Hospitals/clinics to Healthcare Providers,True
+Walmart,WMT,Customer,Retail (Global),Segment,,Retail,Consumers worldwide,Global,5,1000,2021,Walmart sells Consumers worldwide to Retail (Global),True
+UnitedHealth Group,UNH,Supplier,Micron,Company,T1,Memory,DRAM/NAND modules,US,4,2500,2018,Micron supplies DRAM/NAND modules to UnitedHealth Group,True
+UnitedHealth Group,UNH,Supplier,Foxconn,Company,T1,EMS,Assembly partner,APAC,4,2500,2015,Foxconn supplies Assembly partner to UnitedHealth Group,True
+UnitedHealth Group,UNH,Supplier,Samsung Foundry,Company,T1,Foundry,Chip fab capacity,APAC,5,2500,2015,Samsung Foundry supplies Chip fab capacity to UnitedHealth Group,True
+UnitedHealth Group,UNH,Supplier,SK hynix,Company,T1,Memory,HBM/DRAM,APAC,3,2500,2015,SK hynix supplies HBM/DRAM to UnitedHealth Group,True
+UnitedHealth Group,UNH,Customer,Amazon Web Services,Company,,Cloud,Cloud consumption / GPU instances,Global,4,2500,2019,UnitedHealth Group sells Cloud consumption / GPU instances to Amazon Web Services,True
+UnitedHealth Group,UNH,Customer,Automotive OEMs,Segment,,B2B,Car makers,Global,5,2500,2019,UnitedHealth Group sells Car makers to Automotive OEMs,True
+UnitedHealth Group,UNH,Customer,Google Cloud,Company,,Cloud,Cloud consumption,Global,5,2500,2024,UnitedHealth Group sells Cloud consumption to Google Cloud,True
+ExxonMobil,XOM,Supplier,ASML,Company,T2,Equipment,Lithography machines,EU,4,2500,2015,ASML supplies Lithography machines to ExxonMobil,True
+ExxonMobil,XOM,Supplier,TSMC,Company,T1,Foundry,Advanced wafers,APAC,3,2500,2018,TSMC supplies Advanced wafers to ExxonMobil,True
+ExxonMobil,XOM,Supplier,Samsung Foundry,Company,T1,Foundry,Chip fab capacity,APAC,5,2500,2018,Samsung Foundry supplies Chip fab capacity to ExxonMobil,True
+ExxonMobil,XOM,Supplier,DHL,Company,T1,Logistics,Global logistics,EU,5,5000,2023,DHL supplies Global logistics to ExxonMobil,True
+ExxonMobil,XOM,Customer,Automotive OEMs,Segment,,B2B,Car makers,Global,3,1000,2016,ExxonMobil sells Car makers to Automotive OEMs,True
+ExxonMobil,XOM,Customer,Microsoft,Company,,Cloud,GPU clusters / enterprise software,Global,4,1000,2024,ExxonMobil sells GPU clusters / enterprise software to Microsoft,True
+ExxonMobil,XOM,Customer,Amazon Web Services,Company,,Cloud,Cloud consumption / GPU instances,Global,3,500,2021,ExxonMobil sells Cloud consumption / GPU instances to Amazon Web Services,True
+Broadcom,AVGO,Supplier,Foxconn,Company,T1,EMS,Assembly partner,APAC,3,1000,2015,Foxconn supplies Assembly partner to Broadcom,True
+Broadcom,AVGO,Supplier,Cloudflare,Company,T1,CDN/Security,Edge + WAF,US,4,5000,2018,Cloudflare supplies Edge + WAF to Broadcom,True
+Broadcom,AVGO,Supplier,TSMC,Company,T1,Foundry,Advanced wafers,APAC,3,1000,2018,TSMC supplies Advanced wafers to Broadcom,True
+Broadcom,AVGO,Supplier,Seagate,Company,T1,Storage,Enterprise HDD/SSD,US,4,500,2018,Seagate supplies Enterprise HDD/SSD to Broadcom,True
+Broadcom,AVGO,Customer,Retail (Global),Segment,,Retail,Consumers worldwide,Global,4,1000,2016,Broadcom sells Consumers worldwide to Retail (Global),True
+Broadcom,AVGO,Customer,Financial Services (US),Segment,,B2B,Banking / fintech,US,4,500,2024,Broadcom sells Banking / fintech to Financial Services (US),True
+Broadcom,AVGO,Customer,Enterprise (US),Segment,,B2B,Enterprise buyers,US,3,1000,2024,Broadcom sells Enterprise buyers to Enterprise (US),True
+Costco,COST,Supplier,Foxconn,Company,T1,EMS,Assembly partner,APAC,3,1000,2023,Foxconn supplies Assembly partner to Costco,True
+Costco,COST,Supplier,ASML,Company,T2,Equipment,Lithography machines,EU,4,2500,2015,ASML supplies Lithography machines to Costco,True
+Costco,COST,Supplier,SK hynix,Company,T1,Memory,HBM/DRAM,APAC,4,2500,2023,SK hynix supplies HBM/DRAM to Costco,True
+Costco,COST,Supplier,Akamai,Company,T1,CDN,Edge delivery,US,5,2500,2015,Akamai supplies Edge delivery to Costco,True
+Costco,COST,Customer,Amazon Web Services,Company,,Cloud,Cloud consumption / GPU instances,Global,5,2500,2016,Costco sells Cloud consumption / GPU instances to Amazon Web Services,True
+Costco,COST,Customer,Enterprise (Global),Segment,,B2B,Enterprise buyers,Global,3,5000,2021,Costco sells Enterprise buyers to Enterprise (Global),True
+Costco,COST,Customer,Google Cloud,Company,,Cloud,Cloud consumption,Global,5,2500,2024,Costco sells Cloud consumption to Google Cloud,True
+Oracle,ORCL,Supplier,UPS,Company,T1,Logistics,Logistics & delivery,US,5,1000,2020,UPS supplies Logistics & delivery to Oracle,True
+Oracle,ORCL,Supplier,LG Energy Solution,Company,T1,Battery,EV battery packs,APAC,3,5000,2015,LG Energy Solution supplies EV battery packs to Oracle,True
+Oracle,ORCL,Supplier,Samsung Foundry,Company,T1,Foundry,Chip fab capacity,APAC,5,1000,2020,Samsung Foundry supplies Chip fab capacity to Oracle,True
+Oracle,ORCL,Supplier,Pegatron,Company,T1,EMS,Assembly partner,APAC,4,500,2020,Pegatron supplies Assembly partner to Oracle,True
+Oracle,ORCL,Customer,Media/Entertainment,Segment,,B2B,Content buyers,Global,5,2500,2021,Oracle sells Content buyers to Media/Entertainment,True
+Oracle,ORCL,Customer,Retail (Global),Segment,,Retail,Consumers worldwide,Global,5,5000,2021,Oracle sells Consumers worldwide to Retail (Global),True
+Oracle,ORCL,Customer,Amazon Web Services,Company,,Cloud,Cloud consumption / GPU instances,Global,4,2500,2019,Oracle sells Cloud consumption / GPU instances to Amazon Web Services,True
+PepsiCo,PEP,Supplier,SK hynix,Company,T1,Memory,HBM/DRAM,APAC,5,1000,2020,SK hynix supplies HBM/DRAM to PepsiCo,True
+PepsiCo,PEP,Supplier,Pegatron,Company,T1,EMS,Assembly partner,APAC,4,500,2020,Pegatron supplies Assembly partner to PepsiCo,True
+PepsiCo,PEP,Supplier,DHL,Company,T1,Logistics,Global logistics,EU,4,1000,2023,DHL supplies Global logistics to PepsiCo,True
+PepsiCo,PEP,Supplier,Cloudflare,Company,T1,CDN/Security,Edge + WAF,US,5,2500,2023,Cloudflare supplies Edge + WAF to PepsiCo,True
+PepsiCo,PEP,Customer,Healthcare Providers,Segment,,B2B,Hospitals/clinics,US,5,5000,2019,PepsiCo sells Hospitals/clinics to Healthcare Providers,True
+PepsiCo,PEP,Customer,Media/Entertainment,Segment,,B2B,Content buyers,Global,5,500,2021,PepsiCo sells Content buyers to Media/Entertainment,True
+PepsiCo,PEP,Customer,Enterprise (US),Segment,,B2B,Enterprise buyers,US,5,2500,2016,PepsiCo sells Enterprise buyers to Enterprise (US),True
+Adobe,ADBE,Supplier,Seagate,Company,T1,Storage,Enterprise HDD/SSD,US,4,1000,2018,Seagate supplies Enterprise HDD/SSD to Adobe,True
+Adobe,ADBE,Supplier,Cloudflare,Company,T1,CDN/Security,Edge + WAF,US,3,500,2015,Cloudflare supplies Edge + WAF to Adobe,True
+Adobe,ADBE,Supplier,SK hynix,Company,T1,Memory,HBM/DRAM,APAC,3,5000,2015,SK hynix supplies HBM/DRAM to Adobe,True
+Adobe,ADBE,Supplier,DHL,Company,T1,Logistics,Global logistics,EU,4,5000,2018,DHL supplies Global logistics to Adobe,True
+Adobe,ADBE,Customer,Financial Services (US),Segment,,B2B,Banking / fintech,US,3,1000,2016,Adobe sells Banking / fintech to Financial Services (US),True
+Adobe,ADBE,Customer,Healthcare Providers,Segment,,B2B,Hospitals/clinics,US,3,5000,2019,Adobe sells Hospitals/clinics to Healthcare Providers,True
+Adobe,ADBE,Customer,Media/Entertainment,Segment,,B2B,Content buyers,Global,3,5000,2016,Adobe sells Content buyers to Media/Entertainment,True
+Netflix,NFLX,Supplier,LG Energy Solution,Company,T1,Battery,EV battery packs,APAC,3,5000,2020,LG Energy Solution supplies EV battery packs to Netflix,True
+Netflix,NFLX,Supplier,SK hynix,Company,T1,Memory,HBM/DRAM,APAC,4,5000,2023,SK hynix supplies HBM/DRAM to Netflix,True
+Netflix,NFLX,Supplier,Samsung Foundry,Company,T1,Foundry,Chip fab capacity,APAC,3,5000,2023,Samsung Foundry supplies Chip fab capacity to Netflix,True
+Netflix,NFLX,Supplier,Panasonic,Company,T1,Battery,Cells & packs,APAC,4,1000,2020,Panasonic supplies Cells & packs to Netflix,True
+Netflix,NFLX,Customer,Automotive OEMs,Segment,,B2B,Car makers,Global,4,5000,2016,Netflix sells Car makers to Automotive OEMs,True
+Netflix,NFLX,Customer,Healthcare Providers,Segment,,B2B,Hospitals/clinics,US,5,2500,2019,Netflix sells Hospitals/clinics to Healthcare Providers,True
+Netflix,NFLX,Customer,Enterprise (US),Segment,,B2B,Enterprise buyers,US,4,2500,2021,Netflix sells Enterprise buyers to Enterprise (US),True
+Salesforce,CRM,Supplier,LG Energy Solution,Company,T1,Battery,EV battery packs,APAC,3,5000,2018,LG Energy Solution supplies EV battery packs to Salesforce,True
+Salesforce,CRM,Supplier,Samsung Foundry,Company,T1,Foundry,Chip fab capacity,APAC,5,1000,2015,Samsung Foundry supplies Chip fab capacity to Salesforce,True
+Salesforce,CRM,Supplier,Micron,Company,T1,Memory,DRAM/NAND modules,US,4,5000,2020,Micron supplies DRAM/NAND modules to Salesforce,True
+Salesforce,CRM,Supplier,Akamai,Company,T1,CDN,Edge delivery,US,5,5000,2023,Akamai supplies Edge delivery to Salesforce,True
+Salesforce,CRM,Customer,Microsoft,Company,,Cloud,GPU clusters / enterprise software,Global,4,500,2024,Salesforce sells GPU clusters / enterprise software to Microsoft,True
+Salesforce,CRM,Customer,Enterprise (US),Segment,,B2B,Enterprise buyers,US,4,500,2021,Salesforce sells Enterprise buyers to Enterprise (US),True
+Salesforce,CRM,Customer,Financial Services (US),Segment,,B2B,Banking / fintech,US,4,5000,2024,Salesforce sells Banking / fintech to Financial Services (US),True
